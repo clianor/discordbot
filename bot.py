@@ -4,7 +4,8 @@ from discord.ext import commands
 import requests as rq
 from bs4 import BeautifulSoup as bs
 
-# 디스코드 클라이언트를 생성합니다.
+print("11/25")
+
 Client = discord.Client()
 client = commands.Bot(command_prefix=None)
 
@@ -50,7 +51,7 @@ async def on_message(message):
         print(content)
         await client.send_message(message.channel, content[1])
 
-client.run('MzgzNzk1MzM2ODU2MDc2Mjkx.DPpc-g.lEfspwpeNj4rBPle2lrUmfu0QAY')
+client.run('Your API Key')
 
 
 
